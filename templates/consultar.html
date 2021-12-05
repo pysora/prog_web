@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <link href="static/crud_curriculo.css" rel="stylesheet" type="text/css">
+   <title>Resultado da Consulta de Currículo</title>
+</head>
+<body>
+   <h1>Resultado da consulta de currículo</h1>
+   <hr/>
+   <table>
+       <tr>
+           <th>Nome</th>
+           <th>Data de Nascimento</th>
+           <th>Linguagens de programação</th>
+           <th>Instituição de Ensino</th>
+           <th>Curso</th>
+           <th>Semestre</th>
+           <th>Celular</th>
+           <th>Email</th>
+       </tr>
+       {{ curriculo | safe }}
+   </table>
+   <br/>
+   <hr/>
+   <br/>
+   <a href="/"> Voltar ao Menu </a> ||
+   <a href="/parConsultar"> Consultar currículos </a>
+</body>
+</html>

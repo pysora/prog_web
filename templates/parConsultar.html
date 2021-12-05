@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <link href="static/crud_curriculo.css" rel="stylesheet" type="text/css">
+   <title>Parâmetros de Consulta de Currículo</title>
+</head>
+<body>
+   <h1>Parâmetros de consulta de Currículo</h1>
+   <hr/>
+   <form action="/consultar" method="post">
+       <table>
+           <tr>
+               <td>Nome completo do aluno:</td>
+               <td><input type="text" name="nome" size="50"></td>
+           </tr>
+       </table>
+       <br/>
+       <input type="submit" value="Consultar Currículo"/>
+   </form>
+   <br/>
+   <hr/>
+   <br/>
+   <a href="/"> Voltar ao Menu </a>
+</body>
+</html>

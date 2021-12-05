@@ -1,0 +1,80 @@
+h1{
+   font-family: verdana;
+   font-size: 2em;
+   color: orange;
+}
+
+h2{
+   font-family: verdana;
+   font-size: 1.5em;
+   color: light blue;
+}
+
+hr{
+   background-color: #225599;
+   height: 4px;
+   border: none;
+}
+
+li{
+   padding: 10px;
+}
+
+
+a{
+   font-family: verdana;
+   font-size: 1em;
+}
+
+a:link{
+   text-decoration:none;
+   color: green;
+}
+
+a:hover{
+   background: yellow;
+   font-weight: bold;
+}
+
+table{
+   padding: 20px;
+   font-family: verdana;
+   font-size: 1em;
+   color: #225599;
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px black;
+   padding: 7px;
+}
+
+select, input[type=text], textarea{
+   font-family: verdana;
+   font-size: 1em;
+   font-weight: bold;
+   color: #225599;
+}
+
+input[type=date], input[type=number]{
+   font-family: verdana;
+   font-size: 1em;
+   font-weight: bold;
+   color: #225599;
+}
+
+input[type=submit]{
+   font-family: verdana;
+   font-size: 1em;
+   font-weight: bold;
+   color: light blue;
+   padding: 10px;
+}
+
+button{
+   font-family: verdana;
+   font-size: 1em;
+   font-weight: bold;
+   color: blue;
+   padding: 7px;
+}

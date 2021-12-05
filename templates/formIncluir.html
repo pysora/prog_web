@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <link href="static/crud_curriculo.css" rel="stylesheet" type="text/css">
+   <title>Formulário para inclusão de currículo</title>
+</head>
+<body>
+   <h1>Formulário de inclusão de currículo</h1>
+   <hr/>
+   <form action="/incluir" method="post">
+       <table>
+           <tr>
+               <td>Nome Completo:</td>
+               <td><input type="text" name="nome" size="50" maxlength="50" required/></td>
+           </tr>
+           <tr>
+               <td>Data de Nascimento:</td>
+               <td><input type="date" name="data" required/></td>
+           </tr>
+           <tr>
+               <td>Linguagens de Programação:</td>
+               <td><textarea rows="5" cols="50" name="linguagens"></textarea></td>
+           </tr>
+           <tr>
+               <td>Instituição de Ensino:</td>
+               <td><input type="text" name="instituicao" size="20" maxlength="20" required/></td>
+           </tr>
+           <tr>
+               <td>Nome do Curso:</td>
+               <td><input type="text" name="curso" size="20" maxlength="20" required/></td>
+           </tr>
+           <tr>
+               <td>Semestre:</td>
+               <td>
+                   <input type="number" name="semestre" size="3" min="1" max="999">
+               </td>
+           </tr>
+           <tr>
+               <td>Celular:</td>
+               <td><input type="text" name="celular" size="15" maxlength="15" required/></td>
+           </tr>
+           <tr>
+               <td>Email:</td>
+               <td><input type="text" name="email" size="20" maxlength="20" required/></td>
+           </tr>
+       </table>
+       <br/>
+       <input type="submit" value="Incluir Currículo"/>
+   </form>
+   <hr/>
+   <br/>
+   [<a href="/"> Voltar ao Menu </a>]
+</body>
+</html>
