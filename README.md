@@ -2,5 +2,5 @@
 
 Trabalho da menção final de programação web, sistema de currículo.
 
-Alunos: João Pedro Aguiar Sousa 
+Alunos: João Pedro Aguiar Sousa, 
         Henrique Tolentino
