@@ -1,6 +1,3 @@
-# prog_web
+#Sobre o projeto
 
-Trabalho da menção final de programação web, sistema de currículo.
-
-Alunos: João Pedro Aguiar Sousa, 
-        Henrique Tolentino
+Trabalho da menção final da disciplina de Programação Web, sistema de currículo.
